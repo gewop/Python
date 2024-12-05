@@ -74,9 +74,8 @@ cv2.namedWindow('Manual Square Dragging with Cross-Correlation')
 cv2.setMouseCallback('Manual Square Dragging with Cross-Correlation', mouse_callback)
 
 # Create a figure for plotting the frequency response
-plt.ion()  # Turn on interactive mode for real-time plotting
+ # Turn on interactive mode for real-time plotting
 fig, ax = plt.subplots()
-
 # Main loop
 while True:
     img_copy = img.copy()
